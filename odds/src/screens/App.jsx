@@ -11,6 +11,7 @@ const App = () => {
     };
     return (
         <div className="main">
+            <h1 className='mainTitle'>odds</h1>
             <ParticlesCircle particlesInit={particlesInit} />
             <Card />
         </div>

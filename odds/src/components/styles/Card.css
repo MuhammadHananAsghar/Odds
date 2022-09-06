@@ -17,6 +17,7 @@
     margin-bottom: 3rem;
 }
 label {
+    opacity: 1;
     text-align: center;
     background-color: white;
     color: #000;
