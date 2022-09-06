@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ParticlesCircle } from '../components/ParticlesCircle';
 import { Card } from '../components/Card';
 import { loadFull } from "tsparticles";
@@ -9,6 +9,20 @@ const App = () => {
     const particlesInit = async (main) => {
         await loadFull(main);
     };
+
+    const handleAPI = () => {
+        fetch(
+            "https://muhammadhananasghar-odds-ppjxw969gq4h9rr9-7000.githubpreview.dev/api/")
+            .then((res) => res.json())
+            .then((json) => {
+                console.log(json);
+            })
+    }
+
+    useEffect(()=>{
+        handleAPI()
+    }, []);
+
     return (
         <div className="main">
             <h1 className='mainTitle'>odds</h1>
