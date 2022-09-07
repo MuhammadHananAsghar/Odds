@@ -18,14 +18,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #3E5151;
+    background: #C33764;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DECBA4, #3E5151);
+    background: linear-gradient(to right, #1D2671, #C33764);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-.mainTitle{
+
+.mainTitle {
     text-transform: uppercase;
     font-size: 45px;
     text-align: center;
