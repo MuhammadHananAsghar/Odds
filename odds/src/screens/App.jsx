@@ -12,7 +12,7 @@ const App = () => {
 
     const handleAPI = () => {
         fetch(
-            "https://muhammadhananasghar-odds-ppjxw969gq4h9rr9-7000.githubpreview.dev/api/",{
+            "https://muhammadhananasghar-odds-ppjxw96wx4r2654v-8000.githubpreview.dev/api/",{
                 method: 'GET',
             })
             .then((res) => res.json())
